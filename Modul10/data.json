@@ -1,0 +1,16 @@
+{
+  "namaLengkap": "Inandra Asha Fardhana",
+  "alamat": "Grobogan",
+  "prodi": "Teknik Informatika",
+  "usia": 20,
+  "lulus": false,
+  "mataKuliah": [
+    "Pemrograman Web",
+    "Algoritma dan Struktur Data",
+    "Sistem Multimedia"
+  ],
+  "nilai": {
+    "Matematika Diskret": "A",
+    "Logika dan Himpunan": "A"
+  }
+}

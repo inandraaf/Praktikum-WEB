@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Keputusan Nilai</title>
+</head>
+<body>
+  <h2>Aplikasi Pengambil Keputusan Nilai</h2>
+
+  <label for="inputNilai">Masukkan Nilai:</label>
+  <input type="number" id="inputNilai">
+  <button onclick="hitungNilai()">Hitung</button>
+
+  <p id="hasilKeputusan"></p>
+
+  <script>
+    function hitungNilai() {
+      var inputNilai = document.getElementById("inputNilai").value;
+      var hasilKeputusan = document.getElementById("hasilKeputusan");
+
+      if (inputNilai >= 0 && inputNilai <= 20) {
+        hasilKeputusan.innerHTML = "Nilai Anda: E";
+      } else if (inputNilai >= 21 && inputNilai <= 40) {
+        hasilKeputusan.innerHTML = "Nilai Anda: D";
+      } else if (inputNilai >= 41 && inputNilai <= 60) {
+        hasilKeputusan.innerHTML = "Nilai Anda: C";
+      } else if (inputNilai >= 61 && inputNilai <= 80) {
+        hasilKeputusan.innerHTML = "Nilai Anda: B";
+      } else if (inputNilai >= 81 && inputNilai <= 100) {
+        hasilKeputusan.innerHTML = "Nilai Anda: A";
+      } else {
+        hasilKeputusan.innerHTML = "Nilai tidak valid!";
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+
+

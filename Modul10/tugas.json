@@ -1,0 +1,53 @@
+{
+  "mahasiswa": {
+    "namaLengkap": "Inandra Asha Fardhana",
+    "alamat": "Grobogan",
+    "prodi": "Teknik Informatika",
+    "usia": 20,
+    "lulus": false,
+    "mataKuliah": [
+      {
+        "nama": "Algoritma dan Struktur Data",
+        "jumlah_sks": 3,
+        "jadwal_kuliah": {
+          "hari": "Kamis",
+          "jam_mulai": "06:30",
+          "jam_selesai": "09:00"
+        },
+        "dosen_pengampu": "Husni Thamrin",
+        "bab_materi": [
+          "Pengenalan Algoritma",
+          "Struktur Data Dasar",
+          "Analisis Kompleksitas Algoritma"
+        ]
+      },
+      {
+        "nama": "Organisasi dan Arsitektur Komputer",
+        "jumlah_sks": 4,
+        "jadwal_kuliah": {
+          "hari": "Jumat",
+          "jam_mulai": "13:00",
+          "jam_selesai": "14:10"
+        },
+        "dosen_pengampu": "Helmi Imaduddin",
+        "bab_materi": [
+          "Konsep Dasar Sistem Komputer",
+          "Evolusi dan Performa Kerja Komputer",
+          "Sistem Operasi",
+          "Unit Memory"
+        ]
+      },
+      {
+        "nama": "Pemrograman Web",
+        "jumlah_sks": 3,
+        "jadwal_kuliah": {
+          "hari": "Rabu",
+          "jam_mulai": "12:30",
+          "jam_selesai": "15:00"
+        },
+        "dosen_pengampu": "Widi Widayat",
+        "bab_materi": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  }
+}

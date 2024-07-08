@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gambar Bergerak Memutar</title>
+    <style>
+      /* Gaya untuk gambar bergerak */
+      #gambar-bergerak {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: putar 5s linear infinite;
+      }
+
+      /* Animasi memutar */
+      @keyframes putar {
+        0% {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        100% {
+          transform: translate(-50%, -50%) rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Gambar bergerak memutar -->
+    <a href="https://yahoo.com"
+      ><img id="gambar-bergerak" src="gambar.png" alt="Gambar Bergerak"
+    /></a>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "nama": "Ilham",
+  "umur": 40,
+  "mahasiswa": false,
+  "hobi": ["Sepak Bola", "Berenang", "Olahraga"],
+  "alamat": {
+    "jalan": "Jl. Jetak No. 1234",
+    "kota": "Surakarta"
+  },
+  "catatan": null
+}

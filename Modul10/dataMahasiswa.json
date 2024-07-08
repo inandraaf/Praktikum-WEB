@@ -1,0 +1,36 @@
+{
+  "mahasiswa": [
+    {
+      "namaLengkap": "Inandra Asha Fardhana",
+      "alamat": "Grobogan",
+      "prodi": "Teknik Informatika",
+      "usia": 20,
+      "lulus": false,
+      "mataKuliah": [
+        "Pemrograman Web",
+        "Algoritma dan Struktur Data",
+        "Sistem Multimedia"
+      ],
+      "nilai": {
+        "Algoritma Pemrograman": "A",
+        "Logika dan Himpunan": "A"
+      }
+    },
+    {
+      "namaLengkap": "Mochamad Raihan Mukhorobum",
+      "alamat": "Sukoharjo",
+      "prodi": "Teknik Informatika",
+      "usia": 20,
+      "lulus": false,
+      "mataKuliah": [
+        "Jaringan Komputer",
+        "Rekayasa Perangkat Lunak",
+        "Bahasa Indonesia"
+      ],
+      "nilai": {
+        "Aljabar Linier": "A",
+        "Logika Matematika": "A"
+      }
+    }
+  ]
+}
